@@ -1,0 +1,167 @@
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        padding: 50px 0;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .custom_nav-container .nav_search-btn {
+        background-position: center;
+    }
+
+    .service_section .card-deck {
+
+        flex-direction: column;
+
+    }
+
+    .service_section .card-deck .card {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .slider_img-box {
+
+        width: 85%;
+        margin: 65px auto;
+
+    }
+    
+    .mb-sm-100{
+       margin-bottom: 100px; 
+    }
+    .mb-sm-150{
+       margin-bottom: 150px; 
+    }
+    .mt-sm-30{
+       margin-bottom: 30px; 
+    }
+    
+    .tandoor_section-1 {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/tasty-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    }
+/*
+    div .tandoor_img-box {
+    width: 580px;
+    height: auto; 
+    position: relative; 
+    left: 350px; 
+    -webkit-animation: slideIn 2s forwards; 
+    -moz-animation: slideIn 2s forwards;
+     animation: slideIn 2s forwards; 
+    }
+*/
+    div .tandoor_img-box {
+        text-align: center;
+    }
+    .tandoor_img-box img {
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 2px #8f9193;
+    width: 260px;
+    }
+    figure.ser-imag img {
+    border-radius: 14px;
+    width: 100%;
+    }
+    .slider_section .custom_carousel-control {
+
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 105px;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .tandoor_section .tandoor_detail-box {
+
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    .tandoor_detail-box>div {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .contact_section {
+        background-size: 105px;
+    }
+
+    .contact_section input {
+
+        background-color: transparent;
+
+    }
+
+    .info_section .col-md-3 {
+        text-align: center;
+    }
+
+    .info_section .col-md-3:not(:nth-last-child(1)) {
+
+        margin-bottom: 35px;
+    }
+
+    .tasty_section h2 {
+
+        font-size: 34px;
+    }
+    .slider_item-detail h1 {
+    font-weight: 700;
+    font-size: 25px;
+    width: 95%;
+    }
+    .slider_item-detail h2 {
+    font-weight: 700;
+    font-size: 25px;
+    width: 95%;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider_item-container .slider_item-detail {
+
+        text-align: center;
+
+    }
+
+    .slider_item-container .slider_item-detail .d-flex {
+
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
